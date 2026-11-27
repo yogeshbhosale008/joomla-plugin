@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="plugin" group="system" method="upgrade">
-	<name>plg_system_contactcc</name>
+	<name>System - Contact CC</name>
 	<author>Yogesh B</author>
 	<creationDate>2026-11-27</creationDate>
 	<copyright>(C) 2026 Yogesh B. All rights reserved.</copyright>
@@ -9,8 +9,7 @@
 	<version>1.0.0</version>
 	<description>PLG_SYSTEM_CONTACTCC_XML_DESCRIPTION</description>
 	<namespace path="src">Joomla\Plugin\System\Contactcc</namespace>
-	<!-- Informational only: Joomla does not read this tag. script.php enforces PHP 8.1+ / Joomla 4.0+ at install time. -->
-	<phpminimum>8.1</phpminimum>
+	<!-- script.php blocks installs on PHP < 8.1 and Joomla < 4.0. -->
 	<scriptfile>script.php</scriptfile>
 	<files>
 		<folder plugin="contactcc">services</folder>

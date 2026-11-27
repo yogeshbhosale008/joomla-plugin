@@ -12,7 +12,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://raw.githubusercontent.com/yogeshbhosale008/joomla-plugin/main/releases/plg_system_contactcc_v1_0.zip</downloadurl>
 		</downloads>
-		<sha512>aab17a0337eeb61e9aea708a46681d1818689b90764d119d74b691c7283f4ecd5fc95e68fecedb81d21766c0fbe5df79a447e2688cd30611255b1e9a93f7ffbf</sha512>
+		<sha512>bde5a54db084a5e0a18766ae09f11a1a8c2b5901cb1a21f49955df31d206691090168cb1e68d39d48b71a5690ff165f928228b5a69cc29de13128a327cdc4b7b</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
