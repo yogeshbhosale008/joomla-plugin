@@ -8,16 +8,16 @@
 		<folder>system</folder>
 		<client>site</client>
 		<version>1.0.0</version>
-		<infourl title="Contact CC 1.0.0">https://github.com/yogeshbhosale008/plg_system_contactcc/releases/tag/v1.0.0</infourl>
+		<infourl title="Contact CC 1.0.0">https://github.com/yogeshbhosale008/joomla-plugin/tree/main/plg_system_contactcc</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/yogeshbhosale008/plg_system_contactcc/releases/download/v1.0.0/plg_system_contactcc.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://raw.githubusercontent.com/yogeshbhosale008/joomla-plugin/main/releases/plg_system_contactcc_v1_0.zip</downloadurl>
 		</downloads>
-		<sha512>e01b4510bb3cc3d8c55bbc649272181f883b85a17054f52543e73aa1f5f7d13203c32d51ea5e5cd1ce96d61fae4b0c7ce4c10a443eb7edeb54f762b630dbd474</sha512>
+		<sha512>aab17a0337eeb61e9aea708a46681d1818689b90764d119d74b691c7283f4ecd5fc95e68fecedb81d21766c0fbe5df79a447e2688cd30611255b1e9a93f7ffbf</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<maintainer>Yogesh B</maintainer>
-		<maintainerurl>https://github.com/yogeshbhosale008/plg_system_contactcc</maintainerurl>
+		<maintainerurl>https://github.com/yogeshbhosale008/joomla-plugin/tree/main/plg_system_contactcc</maintainerurl>
 		<targetplatform name="joomla" version="(4|5)\..*"/>
 		<php_minimum>8.1</php_minimum>
 	</update>

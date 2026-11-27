@@ -5,7 +5,7 @@
 	<creationDate>2026-11-27</creationDate>
 	<copyright>(C) 2026 Yogesh B. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<authorUrl>https://github.com/yogeshbhosale008/plg_system_contactcc</authorUrl>
+	<authorUrl>https://github.com/yogeshbhosale008/joomla-plugin/tree/main/plg_system_contactcc</authorUrl>
 	<version>1.0.0</version>
 	<description>PLG_SYSTEM_CONTACTCC_XML_DESCRIPTION</description>
 	<namespace path="src">Joomla\Plugin\System\Contactcc</namespace>
@@ -45,6 +45,6 @@
 		</fields>
 	</config>
 	<updateservers>
-		<server type="extension" name="System - Contact CC">https://raw.githubusercontent.com/yogeshbhosale008/plg_system_contactcc/main/updates.xml</server>
+		<server type="extension" name="System - Contact CC">https://raw.githubusercontent.com/yogeshbhosale008/joomla-plugin/main/plg_system_contactcc/updates.xml</server>
 	</updateservers>
 </extension>

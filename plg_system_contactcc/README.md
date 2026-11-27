@@ -20,7 +20,7 @@ Adds a **CC Email Addresses** field to each contact in Joomla's Contacts compone
 
 ## Installation
 
-1. Download `plg_system_contactcc.zip` from the [Releases page](https://github.com/yogeshbhosale008/plg_system_contactcc/releases).
+1. Download the latest `plg_system_contactcc_v….zip` from the [releases folder](https://github.com/yogeshbhosale008/joomla-plugin/tree/main/releases).
 2. In Joomla, go to **System → Install → Extensions** and upload the zip.
 3. Go to **System → Manage → Plugins**, search for `Contact CC` and enable **System - Contact CC**.
 
@@ -98,7 +98,7 @@ New versions show up in Joomla under **System → Update → Extensions**.
 
 ## Support
 
-Report problems or ask questions on [GitHub Issues](https://github.com/yogeshbhosale008/plg_system_contactcc/issues).
+Report problems or ask questions on [GitHub Issues](https://github.com/yogeshbhosale008/joomla-plugin/issues).
 
 ## License
 
