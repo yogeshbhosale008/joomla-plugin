@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Loaded into the admin "com_contact.contact" form by the plugin.
+	The value is stored in the contact's existing params JSON as params.cc_emails.
+
+	The core edit layout renders the Details tab field by field and skips the "details" fieldset when it
+	builds its automatic tabs. So this field will not show up on its own. The plugin swaps "email_to" to the
+	"emailcc" field type, which renders this field directly below the Email input.
+-->
+<form>
+	<fields name="params">
+		<fieldset name="details">
+			<field
+				name="cc_emails"
+				type="text"
+				label="PLG_SYSTEM_CONTACTCC_FIELD_CC_LABEL"
+				description="PLG_SYSTEM_CONTACTCC_FIELD_CC_DESC"
+				hint="cc1@example.com, cc2@example.com"
+			/>
+		</fieldset>
+	</fields>
+</form>

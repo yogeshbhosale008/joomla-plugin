@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>plg_system_contactcc</name>
+	<author>Yogesh B</author>
+	<creationDate>2026-11-27</creationDate>
+	<copyright>(C) 2026 Yogesh B. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_CONTACTCC_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Plugin\System\Contactcc</namespace>
+	<!-- Informational only: Joomla does not read this tag. script.php enforces PHP 8.1+ / Joomla 4.0+ at install time. -->
+	<phpminimum>8.1</phpminimum>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<folder plugin="contactcc">services</folder>
+		<folder>forms</folder>
+		<folder>language</folder>
+		<folder>src</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addruleprefix="Joomla\Plugin\System\Contactcc\Rule">
+				<field
+					name="default_cc_emails"
+					type="text"
+					label="PLG_SYSTEM_CONTACTCC_FIELD_DEFAULT_CC_LABEL"
+					description="PLG_SYSTEM_CONTACTCC_FIELD_DEFAULT_CC_DESC"
+					hint="cc1@example.com, cc2@example.com"
+					validate="ccemails"
+				/>
+				<field
+					name="include_custom_fields"
+					type="radio"
+					label="PLG_SYSTEM_CONTACTCC_FIELD_INCLUDE_CUSTOM_FIELDS_LABEL"
+					description="PLG_SYSTEM_CONTACTCC_FIELD_INCLUDE_CUSTOM_FIELDS_DESC"
+					class="btn-group btn-group-yesno"
+					default="1"
+					filter="integer"
+					>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
